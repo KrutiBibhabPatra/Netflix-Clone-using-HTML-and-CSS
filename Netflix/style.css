@@ -1,0 +1,324 @@
+                                                                                                @import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@600&display=swap");
+                                                                                                @import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@700&display=swap");
+
+                                                                                                .main {
+                                                                                                    background-image: url("assets/images/bg.jpg");
+                                                                                                    height: 100vh;
+                                                                                                    background-position: center center;
+                                                                                                    background-size: max(1000px, 100vw);
+                                                                                                    position: relative;
+                                                                                                    background-repeat: no-repeat;
+
+                                                                                                }
+
+                                                                                                * {
+                                                                                                    padding: 0;
+                                                                                                    margin: 0;
+                                                                                                    font-family: "Poppins", sans-serif;
+                                                                                                }
+
+                                                                                                body {
+                                                                                                    background-color: black;
+                                                                                                }
+
+                                                                                                .main .box {
+                                                                                                    height: 100vh;
+                                                                                                    width: 100%;
+                                                                                                    opacity: 0.69;
+                                                                                                    position: absolute;
+                                                                                                    top: 0;
+                                                                                                    background-color: black;
+                                                                                                }
+
+                                                                                                nav {
+                                                                                                    max-width: 75vw;
+                                                                                                    display: flex;
+                                                                                                    margin: auto;
+                                                                                                    justify-content: space-between;
+                                                                                                    align-items: center;
+                                                                                                    height: 100px;
+                                                                                                }
+
+                                                                                                nav img {
+                                                                                                    color: red;
+                                                                                                    width: 148px;
+                                                                                                    position: relative;
+                                                                                                    z-index: 10;
+
+                                                                                                }
+
+                                                                                                nav button {
+                                                                                                    position: relative;
+                                                                                                    z-index: 10;
+                                                                                                    margin-top: 80px;
+                                                                                                    margin-left: 20px;
+
+                                                                                                }
+
+                                                                                                .intro {
+                                                                                                    font-family: "Martel Sans", sans-serif;
+                                                                                                    height: calc(100% - 100px);
+                                                                                                    display: flex;
+                                                                                                    align-items: center;
+                                                                                                    justify-content: center;
+                                                                                                    flex-direction: column;
+                                                                                                    color: white;
+                                                                                                    position: relative;
+                                                                                                    padding: 0 30px;
+                                                                                                }
+
+                                                                                                .intro> :nth-child(1) {
+                                                                                                    font-family: "Poppins", sans-serif;
+                                                                                                    font-weight: 50;
+                                                                                                    font-size: 18px;
+                                                                                                    text-align: center;
+                                                                                                }
+
+                                                                                                .intro> :nth-child(2) {
+                                                                                                    font-weight: bolder;
+                                                                                                    font-size: 32px;
+                                                                                                    text-align: center;
+                                                                                                    padding-bottom: 10px;
+                                                                                                }
+
+                                                                                                .intro> :nth-child(3) {
+                                                                                                    font-weight: 400;
+                                                                                                    font-size: 18px;
+                                                                                                    text-align: center;
+                                                                                                    padding-bottom: 20px;
+                                                                                                }
+
+                                                                                                .separate {
+                                                                                                    height: 7px;
+                                                                                                    background-color: rgb(59, 56, 56);
+                                                                                                    z-index: 20;
+                                                                                                    position: relative;
+                                                                                                }
+
+                                                                                                .btn {
+                                                                                                    padding: 0.5px 20px;
+                                                                                                    font-size: 16px;
+                                                                                                    font-weight: 400;
+                                                                                                    color: white;
+                                                                                                    background-color: rgba(248, 243, 243, 0.021);
+                                                                                                    border-radius: 4px;
+                                                                                                    border: 1px solid white;
+
+
+                                                                                                }
+
+                                                                                                .btn-red {
+                                                                                                    background-color: rgb(225, 30, 30);
+                                                                                                    color: white;
+                                                                                                    padding: 9px 24px;
+                                                                                                    border-radius: 8px;
+                                                                                                    font-size: 25px;
+                                                                                                    font-weight: 50;
+                                                                                                    cursor: pointer;
+                                                                                                    margin-top: 10px;
+
+                                                                                                }
+
+                                                                                                .btn-red-sm {
+                                                                                                    background-color: red;
+                                                                                                    color: white;
+                                                                                                    font-size: 14px;
+                                                                                                    font-weight: 500;
+                                                                                                    border-radius: 6px;
+                                                                                                    cursor: pointer
+                                                                                                }
+
+                                                                                                .first {
+                                                                                                    display: flex;
+                                                                                                    justify-content: center;
+                                                                                                    max-width: 70vw;
+                                                                                                    margin: auto;
+                                                                                                    color: white;
+                                                                                                    justify-content: center;
+                                                                                                    align-items: center;
+                                                                                                }
+
+                                                                                                .sec1Img {
+                                                                                                    position: relative;
+                                                                                                }
+
+                                                                                                .sec1Img img {
+                                                                                                    width: 550px;
+                                                                                                    position: relative;
+                                                                                                    z-index: 10;
+                                                                                                }
+
+                                                                                                .sec1Img video {
+                                                                                                    width: 402px;
+                                                                                                    top: 85px;
+                                                                                                    left: 70px;
+                                                                                                    right: 98px;
+                                                                                                    position: absolute;
+                                                                                                }
+
+
+
+
+                                                                                                section.first>div {
+                                                                                                    display: flex;
+                                                                                                    flex-direction: column;
+                                                                                                    padding: 34px 0;
+                                                                                                }
+
+                                                                                                section.first>div :nth-child(1) {
+                                                                                                    font-size: 48px;
+                                                                                                    font-weight: bolder;
+                                                                                                }
+
+                                                                                                section.first>div :nth-child(2) {
+                                                                                                    font-size: 24px;
+                                                                                                    font-weight: 100;
+                                                                                                }
+
+
+                                                                                                .third {
+                                                                                                    display: flex;
+                                                                                                    justify-content: center;
+                                                                                                    max-width: 70vw;
+                                                                                                    margin: auto;
+                                                                                                    color: white;
+                                                                                                    justify-content: center;
+                                                                                                    align-items: center;
+                                                                                                }
+
+                                                                                                .secthird {
+                                                                                                    position: relative;
+                                                                                                }
+
+                                                                                                .secthird img {
+                                                                                                    width: 550px;
+                                                                                                    position: relative;
+                                                                                                    z-index: 10;
+                                                                                                }
+
+                                                                                                .secthird video {
+                                                                                                    width: 340px;
+                                                                                                    top: 37px;
+                                                                                                    left: 110px;
+
+                                                                                                    right: 100px;
+                                                                                                    position: absolute;
+                                                                                                }
+
+
+
+
+                                                                                                section.third>div {
+                                                                                                    display: flex;
+                                                                                                    flex-direction: column;
+                                                                                                }
+
+                                                                                                section.third>div :nth-child(1) {
+                                                                                                    font-size: 48px;
+                                                                                                    font-weight: bolder;
+                                                                                                }
+
+                                                                                                section.third>div :nth-child(2) {
+                                                                                                    font-size: 24px;
+                                                                                                    font-weight: 100;
+                                                                                                }
+
+
+
+                                                                                                .faq h2 {
+                                                                                                    text-align: center;
+                                                                                                    font-size: 48px;
+                                                                                                    font-weight: 900;
+                                                                                                }
+
+                                                                                                .fbox {
+                                                                                                    display: flex;
+                                                                                                    background-color: rgb(50, 47, 47);
+                                                                                                    padding: 23px;
+                                                                                                    justify-content: space-between;
+
+                                                                                                    max-width: 72vw;
+                                                                                                    margin: 10px auto;
+                                                                                                    cursor: pointer;
+                                                                                                    font-size: 21px;
+                                                                                                }
+
+                                                                                                .faq {
+                                                                                                    background: black;
+                                                                                                    color: white;
+                                                                                                    padding: 48px;
+                                                                                                    text-align: center;
+
+                                                                                                }
+
+                                                                                                .fbox:hover {
+                                                                                                    background-color: rgb(71, 67, 67);
+                                                                                                    transition: all 300ms ease-out;
+                                                                                                }
+
+                                                                                                button {
+                                                                                                    background-color: rgb(225, 30, 30);
+                                                                                                    color: white;
+                                                                                                    padding: 9px 24px;
+                                                                                                    border-radius: 8px;
+                                                                                                    font-size: 25px;
+                                                                                                    font-weight: 50;
+                                                                                                    margin-top: 60px;
+                                                                                                    margin-bottom: 90px;
+                                                                                                    cursor: pointer;
+
+                                                                                                }
+
+                                                                                                @media screen and (max-width: 950px) {
+                                                                                                    nav {
+                                                                                                        max-width: 90vw;
+                                                                                                    }
+
+                                                                                                    .first {
+                                                                                                        flex-wrap: wrap;
+                                                                                                    }
+
+                                                                                                    .sec1Img img {
+                                                                                                        width: 400px;
+                                                                                                    }
+
+                                                                                                    .sec1Img video {
+
+                                                                                                        width: 300px;
+                                                                                                    }
+
+                                                                                                    .third {
+                                                                                                        flex-wrap: wrap;
+                                                                                                    }
+
+                                                                                                    .secthird img {
+                                                                                                        width: 400px;
+                                                                                                    }
+
+                                                                                                    .secthird video {
+
+                                                                                                        width: 220px;
+                                                                                                    }
+
+                                                                                                    .intro>:nth-child(1) {
+                                                                                                        font-size: 32px;
+                                                                                                    }
+
+                                                                                                    .intro>:nth-child(1) {
+                                                                                                        font-size: 18px;
+                                                                                                    }
+
+                                                                                                    .intro>:nth-child(1) {
+                                                                                                        font-size: 18px;
+                                                                                                    }
+
+                                                                                                    .faq h2 {
+
+                                                                                                        font-size: 32px;
+
+                                                                                                    }
+
+
+
+                                                                                                    .
+                                                                                                }
